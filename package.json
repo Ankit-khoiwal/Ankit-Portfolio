@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "Ankit-Portfolio",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -12,6 +13,9 @@
     "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "^0.2.1",
     "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "packageManager": "pnpm@7.22.0"
 }
